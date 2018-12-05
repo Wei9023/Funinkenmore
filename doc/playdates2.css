@@ -1,0 +1,26 @@
+
+.thumbnail img {
+  size: 25px 20px;
+  border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    border-radius: 50%;
+    opacity: 1.0;
+    width: 250px;
+	height: 200px;
+	margin: 0, auto;
+	transition: all 1s;
+	
+}
+
+
+img:hover {
+	transform: scale(1.1);
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
